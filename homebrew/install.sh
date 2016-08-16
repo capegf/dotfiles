@@ -39,12 +39,12 @@ binaries=(
 apps=(
   # java
   google-chrome
-  qq
-  macdown  # markdown编辑器
+  #qq
+  #macdown  # markdown编辑器
   iterm2 # 加强版终端
-  scroll-reverser  # 可以分别鼠标和触控板滚动方向
+  #scroll-reverser  # 可以分别鼠标和触控板滚动方向
   # goagentx  # FQ
-  slate  # 开源免费的桌面窗口控制调整工具
+  #slate  # 开源免费的桌面窗口控制调整工具
   # qlcolorcode
   # qlmarkdown
   # qlstephen
@@ -54,10 +54,11 @@ apps=(
   # clipmenu  # 粘贴版扩展 0.4.3
   # sourcetree  # git 管理
   # movist  # 播放器
-  lingon-x # 启动项管理
-  xtrafinder  # 加强finder
+  #lingon-x # 启动项管理
+  #xtrafinder  # 加强finder
   # mou
-  # alfred
+  alfred
+  atom
   # dash
   # evernote
   # flux
@@ -65,7 +66,7 @@ apps=(
   # kitematic
   # obs
   # recordit
-  # slack
+  slack
   # steam
   # sublime-text3
   # todoist
@@ -74,10 +75,10 @@ apps=(
 )
 
 # Fonts
-# fonts=(
+fonts=(
 #   font-roboto
-#   font-source-code-pro
-# )
+  font-source-code-pro
+)
 
 echo "Update Homebrew..."
 # Update homebrew recipes
